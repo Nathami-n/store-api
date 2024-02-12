@@ -1,6 +1,8 @@
 const express = require("express");
+const path = require("path");
 const { loggerItemFunction } = require("./middleware/logEventsMiddleware");
 const errorHandler = require("./middleware/errorEventEmitter");
+const connectDB = require("./db/connect");
 const app = express();
 require("dotenv").config();
 const PORT = process.env.PORT || 3000;
@@ -14,12 +16,20 @@ app.use(express.json());
 //middleware for logging events
 app.use(loggerItemFunction);
 
-app.use('/', (req,res)=> {
-    req.status(200).json({message:'success'})
-})
+app.use("/", (req, res) => {
+  res.status(200).json({ message: "success" });
+});
 
 //logError if it occurs
 app.use(errorHandler);
-app.listen(PORT, () => {
-  `listening on port ${PORT}`;
-});
+
+const startServer = async () => {
+  try {
+    await connectDB(process.env.MONGO_URI);
+    app.listen(PORT, () => {
+      console.log(`running on ${PORT}`);
+    });
+  } catch (e) {
+    console.error(e);
+  }
+};

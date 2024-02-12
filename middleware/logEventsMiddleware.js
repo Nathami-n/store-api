@@ -6,7 +6,7 @@ const { existsSync } = require("fs");
 
 const logItemFunction = async (message, logname) => {
   const date = format(new Date(), "yyyyMMdd\tHH:mm:ss");
-  const logItem = `${data}\t ${uuid()} \t${message}\n`;
+  const logItem = `${date}\t ${uuid()} \t${message}\n`;
   try {
     if (!existsSync(path.join(__dirname, "..", "logs"))) {
       await mkdir(path.join(__dirname, "..", "logs"));

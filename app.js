@@ -20,6 +20,8 @@ app.use("/", (req, res) => {
   res.status(200).json({ message: "success" });
 });
 
+app.use('/api/v1/products', require('./routes/productsRoute'))
+
 //logError if it occurs
 app.use(errorHandler);
 
@@ -27,9 +29,14 @@ const startServer = async () => {
   try {
     await connectDB(process.env.MONGO_URI);
     app.listen(PORT, () => {
+      console.log('connection successful')
       console.log(`running on ${PORT}`);
     });
   } catch (e) {
     console.error(e);
   }
 };
+
+startServer();
+
+

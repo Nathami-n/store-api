@@ -9,3 +9,4 @@
 20240210	21:33:12	 b033747e-e098-4d2a-aa94-00a86dbbfdd1 	GET undefined /
 20240210	21:33:12	 d57c6eed-a438-4c27-824b-3e724fe7d0e5 	GET undefined /favicon.ico
 20240210	22:20:50	 0607afe9-1f1f-4e22-af4c-b7a1adcb2428 	GET undefined /
+20240212	20:50:03	 386a09b1-2244-4752-85c7-e76452b5991b 	GET undefined /api/v1%20%20/products

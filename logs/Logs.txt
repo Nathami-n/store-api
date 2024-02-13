@@ -138,3 +138,9 @@
 20240213	20:47:10	 9bb9e9b5-d2f5-4aec-9011-67cc5d0ae0c7 	GET undefined /api/v1/products?name=a
 20240213	20:47:19	 e619f2d8-f232-4190-a846-7ab0951d69da 	GET undefined /api/v1/products?name=af
 20240213	20:47:26	 e15f9ec8-ce07-4f53-8756-137b0337596c 	GET undefined /api/v1/products?name=g
+20240213	21:05:13	 af0d4d75-1c13-4d98-9df5-22e66cc5441f 	GET undefined /api/v1/products?sort=name
+20240213	21:05:29	 1c79281f-2cea-4b6e-ae82-efb1a6a34dc2 	GET undefined /api/v1/products?sort=name,%20rating
+20240213	21:05:47	 dfa16849-f2c0-48cb-9112-b58b720678c9 	GET undefined /api/v1/products?sort=name,rating
+20240213	21:06:15	 41ff4d29-8bea-4fcf-ade4-236eb6f43997 	GET undefined /api/v1/products?sort=-name,rating
+20240213	21:06:40	 7f159806-ad66-404c-b5eb-9abf784fac87 	GET undefined /api/v1/products?sort=-name,price
+20240213	21:11:39	 47ad753e-45c3-4cd5-b1aa-27547ac249ba 	GET undefined /api/v1/products?fields=name

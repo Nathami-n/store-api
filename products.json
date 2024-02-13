@@ -2,69 +2,53 @@
   {
     "name": "accent chair",
     "price": 25,
-    "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "company": "marcos",
     "rating": 4
   },
   {
     "name": "albany sectional",
     "price": 109,
-    "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "company": "liddy",
     "rating": 5
   },
   {
     "name": "albany table",
     "price": 309,
-    "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "company": "liddy",
     "rating": 4.9
   },
   {
     "name": "armchair",
     "price": 125,
-    "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "company": "marcos",
     "rating": 4.8
   },
   {
     "name": "bar stool",
     "price": 40,
-    "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "company": "liddy",
     "rating": 4.6
   },
   {
     "name": "dining table",
     "price": 42,
-    "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "company": "ikea",
     "rating": 4.55
   },
   {
     "name": "emperor bed",
     "price": 23,
-    "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "company": "ikea"
   },
   {
     "name": "entertainment center",
     "price": 59,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "featured": true,
     "company": "caressa"
   },
   {
     "name": "high-back bench",
     "price": 39,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "featured": true,
     "company": "ikea"
   },
@@ -72,99 +56,76 @@
   {
     "name": "leather sofa",
     "price": 99,
-    "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "company": "caressa"
   },
   {
     "name": "modern bookshelf",
     "price": 31,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "featured": true,
     "company": "caressa"
   },
   {
     "name": "modern poster",
     "price": 30,
-    "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "company": "liddy"
   },
   {
     "name": "shelf",
     "price": 30,
-    "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "company": "ikea"
   },
   {
     "name": "simple chair",
     "price": 109,
-    "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "company": "liddy"
   },
   {
     "name": "sofa set",
     "price": 129,
-    "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "company": "marcos"
   },
   {
     "name": "suede armchair",
     "price": 15,
-    "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "company": "caressa"
   },
   {
     "name": "utopia sofa",
     "price": 79,
     "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "company": "liddy"
   },
   {
     "name": "vase table",
     "price": 120,
     "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "company": "marcos"
   },
   {
     "name": "wooden bed",
     "price": 25,
-    "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z"
+    "company": "ikea"
   },
   {
     "name": "wooden desk",
     "price": 15,
-    "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "company": "ikea"
   },
   {
     "name": "wooden desk",
     "price": 40,
-    "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "company": "ikea"
   },
   {
     "name": "wooden table",
     "price": 23,
     "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "company": "caressa"
   },
   {
     "name": "a first wooden table",
     "price": 23,
-
     "featured": true,
-    "createdAt": "2024-06-12T22:04:32.497Z",
     "company": "caressa"
   }
 ]

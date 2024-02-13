@@ -16,9 +16,9 @@ app.use(express.json());
 //middleware for logging events
 app.use(loggerItemFunction);
 
-app.use("/", (req, res) => {
-  res.status(200).json({ message: "success" });
-});
+// app.use("/", (req, res) => {
+//   res.status(200).json({ message: "success" });
+// });
 
 app.use('/api/v1/products', require('./routes/productsRoute'))
 

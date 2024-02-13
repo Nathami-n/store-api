@@ -133,3 +133,8 @@
 20240213	11:26:45	 b7532612-1e22-4325-90ce-03b2eaba0d69 	GET undefined /api/v1/products?featured=true
 20240213	11:28:01	 8181b287-dfac-47d7-b66b-f4767abcf28b 	GET undefined /api/v1/products
 20240213	11:28:16	 e9dfa797-4ba9-475a-82a9-ae60209fd161 	GET undefined /api/v1/products?featured=false
+20240213	20:41:51	 34113f02-f18b-4554-9ae9-e68089f9832a 	GET undefined /api/v1/products?featured=false
+20240213	20:41:52	 8584523e-16b1-4171-b601-af8ad465c823 	GET undefined /api/v1/products?featured=false
+20240213	20:47:10	 9bb9e9b5-d2f5-4aec-9011-67cc5d0ae0c7 	GET undefined /api/v1/products?name=a
+20240213	20:47:19	 e619f2d8-f232-4190-a846-7ab0951d69da 	GET undefined /api/v1/products?name=af
+20240213	20:47:26	 e15f9ec8-ce07-4f53-8756-137b0337596c 	GET undefined /api/v1/products?name=g

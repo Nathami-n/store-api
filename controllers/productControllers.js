@@ -1,6 +1,6 @@
 const Product = require("../models/productsModel");
 const getAllProducts = async (req, res) => {
-  const { featured, company, name, sort, fields } = req.query;
+  const { featured, company, name, sort, fields, limit } = req.query;
   const queryObject = {};
   if (featured) {
     queryObject.featured = featured === "true" ? true : false;
@@ -23,7 +23,9 @@ const getAllProducts = async (req, res) => {
     const fieldList = fields.split(",").join(" ");
     result = result.select(fieldList);
   }
-
+  if (limit) {
+    result = result.limit(Number(limit))
+  }
   const products = await result;
   res.status(200).json({ products, nbHits: products.length });
 };
